@@ -1,0 +1,18 @@
+/* ul.nav.mb-2.mb-lg-0.justify-content-center.bg-light {
+    display: none;
+} */
+ul{
+    color: white;
+    list-style: none;
+    padding: 0;
+}
+.menu li{
+    padding: 10px;
+    margin-top: 30px;
+}
+.col-3{
+    padding: 0;
+}
+ul li:hover{
+    background-color: #ffc107;
+}

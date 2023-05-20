@@ -1,0 +1,37 @@
+.mainDiv{
+    background-image: url('../img/mainpic.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.overlay{
+     background-color: transparent;
+     /* background-image: linear-gradient(black ,#000000 100%); */
+     background-image: linear-gradient(#474835 ,#80782f 100%);
+     opacity: .69;
+     height:100%;
+     width: 100%;
+     position: absolute;
+}
+.content{
+     position: relative;
+     color: white;
+     top: 35%;
+     
+}
+h1{
+     font-size: 4rem;
+     font-family: 'Montserrat',sans-serif;
+     text-transform: uppercase;
+}
+
+@media screen and (max-width : 420px){
+
+    .mainDiv{
+        height:70vh;
+    }
+}
